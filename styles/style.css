@@ -107,7 +107,6 @@ ol {
 
 .search-form__textfield:focus {
   outline: none;
-  
 }
 
 .search-form__label {
@@ -121,7 +120,7 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:hover {
+.search-form__label:has(.search-form__pseudo-checkbox):hover {
   text-decoration: underline;
 }
 
@@ -138,7 +137,6 @@ ol {
   outline: 1px solid white;
   width: 19px;
   height: 19px;
-  
 }
 
 .search-form__checkbox:checked + span {
